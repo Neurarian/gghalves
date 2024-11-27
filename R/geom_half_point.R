@@ -18,7 +18,7 @@ geom_half_point <- function(
   stat = "HalfPoint", position = "dodge2",
   ...,
   side = "r",
-  transformation = position_jitter(),
+  transformation = position_jitter(height = 0),
   # transformation_params = list(width = NULL, height = NULL),
   range_scale = .75,
   na.rm = FALSE,
