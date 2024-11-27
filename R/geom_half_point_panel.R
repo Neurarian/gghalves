@@ -14,7 +14,7 @@ geom_half_point_panel <- function(
   stat = "identity", position = "identity",
   ...,
   side = "r",
-  transformation = position_jitter(),
+  transformation = position_jitter(height = 0),
   range_scale = .75,
   na.rm = FALSE,
   show.legend = NA,
